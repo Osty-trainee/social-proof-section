@@ -43,7 +43,6 @@ body {
         max-width: 18.4375rem;
     }
 
-
     &__subtitle {
         font-size: 1.1875rem;
         font-weight: 500;
@@ -145,3 +144,43 @@ body {
     }
 }
 
+@media (min-width: 768px) {
+    body {
+        padding: 7.375rem  5rem;
+    }
+
+    .container {
+        max-width: 38rem;
+        gap: var(--spacing-600);
+    }
+
+    .social-proof {
+        &__title {
+            font-size: 3.5rem;
+            max-width: 35rem;
+        }
+
+        &__subtitle {
+            max-width: 28.3125rem;
+        }
+
+        &__ratings {
+            .rating-card {
+                flex-direction: row;
+                width: 28.3125rem;
+                padding: var(--spacing-200) var(--spacing-400);
+                gap: var(--spacing-400);
+            }
+        }
+
+        &__testimonials {
+            max-width: 28.3125rem;
+
+            .testimonial-card {
+                &__quote {
+                    max-width: 23.125rem;
+                }
+            }
+        }
+    }
+}
