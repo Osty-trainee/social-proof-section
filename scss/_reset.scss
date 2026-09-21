@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: var(--main-font);
+    background-color: var(--white);
+    color: var(--purple-900);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
